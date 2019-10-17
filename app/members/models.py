@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class User(models.Model):
     CHOICE_GENDER = (
         ('m','남성'),
